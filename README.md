@@ -6,8 +6,6 @@ this action is VERY simple
 so if you wants to compile your mod with a github action and you're too lazy to make one...
 just do 
 ```
-
-
 name: Compiling
 
 on:
@@ -21,7 +19,7 @@ jobs:
 
     steps:
     - name: Compile
-      uses: Ruochenfu2011/compilation@main
+      uses: Ruochenfu2011/compilation@v1
       
     - name: Archive Artifacts
       uses: actions/upload-artifact@v2
