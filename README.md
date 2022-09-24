@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - name: Compile
-      uses: Ruochenfu2011/compilation@v1
+      uses: Ruochenfu2011/compilation@main
       
     - name: Archive Artifacts
       uses: actions/upload-artifact@v2
