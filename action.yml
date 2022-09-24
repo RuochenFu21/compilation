@@ -1,5 +1,8 @@
 name: Compiling Minecraft Mod
 description: very simple action use to compile your minecraft mod
+branding:
+  icon: archive
+  color: white
 
 on:
   push:
