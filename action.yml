@@ -6,8 +6,7 @@ on:
 
 runs:
 
-
-  runs-on: ubuntu-latest
+  using: "composite"
 
   steps:
   - uses: actions/checkout@v3
@@ -25,6 +24,8 @@ runs:
 
   - name: Run chmod to make gradlew executable
     run: chmod +x ./gradlew
+    shell: bash
       
   - name: Build with Gradle
     run: ./gradlew build
+    shell: bash
