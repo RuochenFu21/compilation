@@ -1,4 +1,5 @@
-name: Compiling
+name: Compiling Minecraft Mod
+description: very simple action use to compile your minecraft mod
 
 on:
   push:
